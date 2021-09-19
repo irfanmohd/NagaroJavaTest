@@ -17,6 +17,7 @@ mvn spring-boot:run
 Rest Endpoints
 
 URL	                                                                                                          Http Verb
+
 http://localhost:8080/api/account/get/statement/by/dates/{accountId}/{fromDate}/{toDate}	                      GET
 http://localhost:8080/api/account/get/statement/by/amounts/{accountId}/{fromAmount}/{toAmount}	                GET
 http://localhost:8080/api/account/get/last/three/month/statement	                                              GET
