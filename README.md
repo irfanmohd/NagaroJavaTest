@@ -23,3 +23,7 @@ How to test API from postman
 
 ![Nagaro](https://user-images.githubusercontent.com/39884239/133926121-e2ca2175-5a1f-41c8-aff4-0d3be4e6f153.PNG)
 
+
+Account Number sendingto user using Bcryt hashing technique.
+
+Note: Unable to start SonarQube server in my laptop due to java version mismatch. It is expecting java 11 but i am using java 8 even i installed java 11 still giving error while generating sonar qube report and jacoco report.
