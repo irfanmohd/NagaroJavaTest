@@ -1,5 +1,6 @@
 # NagaroJavaTest
-Bank Account Statment REST API
+Bank Account Statment REST API Using Java 1.8 + Spring Boot + Spring JDBC+MS Access
+
 What is this project for?
 The goal of this mini project is to write a simple Spring Rest Services for fetching bank statement based on Date ranges, Amount ranges etc. Through this Rest service, Admin can can access all the services and User only access with out parameters service.More details about the services are described below.
 The request can specify from date and to date (the date range).
@@ -16,11 +17,12 @@ mvn spring-boot:run
 
 Rest Endpoints
 
-URL	                                                                                                          Http Verb
+URL	                                                                                                        
 
 http://localhost:8080/api/account/get/statement/by/dates/{accountId}/{fromDate}/{toDate}	                      GET
 http://localhost:8080/api/account/get/statement/by/amounts/{accountId}/{fromAmount}/{toAmount}	                GET
 http://localhost:8080/api/account/get/last/three/month/statement	                                              GET
+
 
 
 How to test API from postman 
