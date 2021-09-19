@@ -5,10 +5,13 @@ The goal of this mini project is to write a simple Spring Rest Services for fetc
 The request can specify from date and to date (the date range).
 
 Added Security for ADMIN and USER Role
+
 -> Admin can perform all the operations
+
 -> User can perform only limited
 
 How do I run the project?
+
 mvn spring-boot:run
 
 Rest Endpoints
